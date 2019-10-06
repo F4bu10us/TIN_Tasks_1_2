@@ -1,0 +1,14 @@
+form, input{
+    font-size: 1.2vw;
+    font-family: Gabriola, sans-serif;
+    font-style: italic;
+}
+input{
+    color:blue;
+}
+.req{
+    color:red;
+}
+input[required]{
+    color:red;
+}

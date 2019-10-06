@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/styleD.css" />
+    <title>Assignment B</title>
+</head>
+<body>
+    <form id="form">
+        <label class="req" for="login">Login:</label><input required type="text" name="login" id="login"/>
+        <br/>
+        <label class="req" for="pass">Password:</label><input required type="password" name="pass" id="pass"/>
+        <br/>
+        <label>
+            <input type="checkbox" value= "agree" name= "agree" />
+            I agree to the terms and conditions
+        </label>
+        <br/>
+        <label>
+            <input type="radio" name="skillLevel" value="noob"/>
+            Noob<br/>
+        </label>
+        <label>
+            <input type="radio" name="skillLevel" value="average"/>
+            Average<br/>
+        </label>
+        <label>
+            <input type="radio" name="skillLevel" value="pro"/>
+            Pro<br/>
+        </label>
+        <label>
+            Suggestions:
+            <textarea form="form"></textarea>
+            <br/>
+        </label>
+        <input type="submit" name="send" value="Send"/>
+        <input type="reset" value="Reset"/>
+    </form>
+</body>
+</html>

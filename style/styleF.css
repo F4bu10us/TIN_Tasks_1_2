@@ -1,0 +1,52 @@
+body{
+    background-color: teal;
+}
+#main{
+    width: 45%;
+    height: 100%;
+    margin: auto;
+    background-color: mintcream;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+#banner{
+    border: 0.2vw solid darkred;
+    background-image:
+            url("https://i.kym-cdn.com/entries/icons/mobile/000/030/897/theboyz.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    width: 30vw;
+    height: 15vw;
+    margin: auto;
+}
+.topic{
+    margin-left: 3vw;
+    font-size: 2vw;
+    text-decoration: underline;
+}
+.info{
+    text-align: justify;
+    background-color: beige;
+    padding: 1vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 1.2vw;
+    border: 0.1vw dashed darkred;
+}
+.topic, .info{
+    margin-top: 1vh;
+}
+a{
+    color: teal;
+    font-size: 1.8vw;
+    font-style: italic;
+    text-decoration: none;
+}
+a:hover{
+    color: darkred;
+}
+footer{
+    text-align: center;
+    margin-top: 1vw;
+}
