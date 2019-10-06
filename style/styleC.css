@@ -1,11 +1,12 @@
 p, h4, h5{
     font-size: 1vw;
     font-family: "Californian FB", sans-serif;
+    font-style: italic;
 }
 
 h1, h2{
     font-size: 3vw;
-    font-family: Gabriola, sans-serif;
+    font-family: Gabriola, sans-serif
 }
 table {
     border-collapse: collapse;
